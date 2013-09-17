@@ -1,0 +1,20 @@
+
+sphmink -- compute spherical Minkowski tensors W1
+
+This is a simple program which computes the quadratic and cubic
+invariants of the W1 spherical Minkowski Tensor.
+
+Invocation:  See compute_sphmink script.
+
+More details:
+
+S. Kapfer, Morphometry and Physics of Particulate and Porous Media (PhD thesis)
+http://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/2062
+
+The input file has the same specs as Karambola labelled input (.poly).
+
+The output file will contain one line per label,
+comprising the invariants in the order q0 w0 q1 w1 q2 w2 ...
+up to a limit which can be set in the source code (MAX_L).
+
+For any questions, feel free to contact me: Sebastian Kapfer <kapfer@ens.fr>
