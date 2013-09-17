@@ -1,0 +1,2 @@
+#!/bin/bash
+./sphmink "$1" >"${1%.poly}_sphm.dat"
