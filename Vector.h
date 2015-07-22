@@ -119,7 +119,7 @@ inline bool vector_isnan (const Vector &x) {
 }
 
 inline void vector_normalize (Vector *x) {
-    *x *= norm (*x);
+    *x /= norm (*x);
 }
 
 // cross product
