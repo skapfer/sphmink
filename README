@@ -16,6 +16,7 @@ S. Kapfer, Morphometry and Physics of Particulate and Porous Media (PhD thesis)
 http://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/2062
 
 The input file has the same specs as Karambola labelled input (.poly).
+Some examples can be found in the ref_structures folder.
 
 The output file will contain one line per label,
 comprising the invariants in the order
@@ -23,5 +24,7 @@ comprising the invariants in the order
     label q0 w0 q1 w1 q2 w2 ...
 
 up to a limit which can be set in the source code (MAX_L).
+You can find reference results for the bcc, fcc and hcp Voronoi cells
+in the folder ref_structures.
 
-For any questions, feel free to contact me: Sebastian Kapfer <kapfer@ens.fr>
+For any questions, feel free to contact me: Sebastian Kapfer <sebastian.kapfer@fau.de>.
